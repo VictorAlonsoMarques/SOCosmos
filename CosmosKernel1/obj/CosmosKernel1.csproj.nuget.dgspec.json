@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Victor\\source\\repos\\CosmosKernel1\\CosmosKernel1\\CosmosKernel1.csproj": {}
+    "C:\\Users\\Victor\\Documents\\GitHub\\SOCosmos\\CosmosKernel1\\CosmosKernel1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Victor\\source\\repos\\CosmosKernel1\\CosmosKernel1\\CosmosKernel1.csproj": {
+    "C:\\Users\\Victor\\Documents\\GitHub\\SOCosmos\\CosmosKernel1\\CosmosKernel1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Victor\\source\\repos\\CosmosKernel1\\CosmosKernel1\\CosmosKernel1.csproj",
+        "projectUniqueName": "C:\\Users\\Victor\\Documents\\GitHub\\SOCosmos\\CosmosKernel1\\CosmosKernel1.csproj",
         "projectName": "CosmosKernel1",
-        "projectPath": "C:\\Users\\Victor\\source\\repos\\CosmosKernel1\\CosmosKernel1\\CosmosKernel1.csproj",
+        "projectPath": "C:\\Users\\Victor\\Documents\\GitHub\\SOCosmos\\CosmosKernel1\\CosmosKernel1.csproj",
         "packagesPath": "C:\\Users\\Victor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Victor\\source\\repos\\CosmosKernel1\\CosmosKernel1\\obj\\",
+        "outputPath": "C:\\Users\\Victor\\Documents\\GitHub\\SOCosmos\\CosmosKernel1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victor\\AppData\\Roaming\\NuGet\\NuGet.Config",

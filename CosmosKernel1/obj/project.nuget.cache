@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jS8AZOaVNhU=",
+  "dgSpecHash": "CIUwMPnlNRI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Victor\\source\\repos\\CosmosKernel1\\CosmosKernel1\\CosmosKernel1.csproj",
+  "projectFilePath": "C:\\Users\\Victor\\Documents\\GitHub\\SOCosmos\\CosmosKernel1\\CosmosKernel1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Victor\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20221121055958\\cosmos.build.0.1.0-localbuild20221121055958.nupkg.sha512",
     "C:\\Users\\Victor\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20221121060004\\cosmos.common.0.1.0-localbuild20221121060004.nupkg.sha512",

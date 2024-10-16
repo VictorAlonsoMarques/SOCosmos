@@ -7,18 +7,62 @@ namespace CosmosKernel1
 {
     public class Kernel : Sys.Kernel
     {
-
         protected override void BeforeRun()
         {
-            Console.WriteLine("Cosmos booted successfully. Type a line of text to get it echoed back.");
+            Console.WriteLine("Cosmos ha iniciado correctamente. Escribe 'help' para ver los comandos disponibles.");
         }
 
         protected override void Run()
         {
-            Console.Write("Input: ");
-            var input = Console.ReadLine();
-            Console.Write("Text typed: ");
-            Console.WriteLine(input);
+            Console.Write("Entrada: ");
+            var input = Console.ReadLine().ToLower();
+
+            switch (input)
+            {
+                case "help":
+                    MostrarAyuda();
+                    break;
+                case "about":
+                    MostrarInformacion();
+                    break;
+                case "reboot":
+                    ReiniciarSistema();
+                    break;
+                case "shutdown":
+                    ApagarSistema();
+                    break;
+                default:
+                    Console.WriteLine("Comando desconocido. Escribe 'help' para ver una lista de comandos.");
+                    break;
+            }
+        }
+
+        private void MostrarAyuda()
+        {
+            Console.WriteLine("Comandos disponibles:");
+            Console.WriteLine("help     - Muestra este mensaje de ayuda");
+            Console.WriteLine("about    - Muestra información sobre el sistema operativo");
+            Console.WriteLine("reboot   - Reinicia el sistema");
+            Console.WriteLine("shutdown - Apaga el sistema");
+        }
+
+        private void MostrarInformacion()
+        {
+            Console.WriteLine("Sistema Operativo Simple v1.0");
+            Console.WriteLine("Desarrollado por Victor Alonso.");
+            Console.WriteLine("Construido utilizando el framework Cosmos.");
+        }
+
+        private void ReiniciarSistema()
+        {
+            Console.WriteLine("Reiniciando sistema...");
+            Sys.Power.Reboot();
+        }
+
+        private void ApagarSistema()
+        {
+            Console.WriteLine("Apagando sistema...");
+            Sys.Power.Shutdown();
         }
     }
 }

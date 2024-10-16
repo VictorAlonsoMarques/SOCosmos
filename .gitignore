@@ -1,0 +1,40 @@
+# Fitxers de compilació
+bin/
+obj/
+
+# Fitxers de Cosmos
+.vscode/
+*.user
+*.log
+
+# Fitxers temporals i de depuració
+*.dll
+*.exe
+*.pdb
+*.db
+*.cache
+*.tmp
+*.log
+
+# Fitxers específics d'IDE
+.idea/
+.vscode/
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fitxers del sistema operatiu
+Thumbs.db
+.DS_Store
+
+# Paquets de NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Fitxers de compilació de Mono
+.mono/
+
+# Fitxers de publicació
+publish/
