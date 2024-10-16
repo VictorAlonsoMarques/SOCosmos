@@ -1,7 +1,8 @@
-# NomDelOS
+# SOCosmos
+
 
 ## Descripció
-**NomDelOS** és un sistema operatiu senzill creat amb Cosmos per a aprenentatge i exploració. El projecte té com a objectiu familiaritzar-se amb el desenvolupament d'un sistema operatiu, incloent funcionalitats bàsiques com informació del sistema, ajuda, reinici i apagat.
+**SOCosmos** és un sistema operatiu senzill creat amb Cosmos per a aprenentatge i exploració. El projecte té com a objectiu familiaritzar-se amb el desenvolupament d'un sistema operatiu, incloent funcionalitats bàsiques com informació del sistema, ajuda, reinici i apagat.
 
 ## Funcionalitats
 - Comanda `help`: Proporciona informació sobre les comandes disponibles.
@@ -15,4 +16,4 @@
 ## Com iniciar el projecte
 1. Cloneu el repositori:
    ```bash
-   git clone https://github.com/usuari/NomDelOS.git
+   git clone https://github.com/usuari/SOCosmos.git
