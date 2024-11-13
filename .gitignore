@@ -15,6 +15,7 @@ obj/
 *.cache
 *.tmp
 *.log
+*.vs
 
 # Fitxers específics d'IDE
 .idea/
