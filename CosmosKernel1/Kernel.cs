@@ -47,7 +47,7 @@ namespace CosmosKernel1
                     EliminarArchivo();
                     break;
                 case "playaudio":
-                    ReproducirAudio(); 
+                    ReproducirAudio();
                     break;
                 default:
                     Console.WriteLine("Comando desconocido.");
