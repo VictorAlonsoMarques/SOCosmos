@@ -1,38 +1,38 @@
 ### SOCosmos
 
-#### Descripció
-SOCosmos és un sistema operatiu senzill creat amb **Cosmos** per a aprenentatge i exploració. El projecte té com a objectiu familiaritzar-se amb el desenvolupament d'un sistema operatiu, incloent funcionalitats bàsiques com informació del sistema, ajuda, gestió d'arxius i capacitats multimèdia.
+#### Descripción  
+SOCosmos es un sistema operativo sencillo creado con **Cosmos** para aprendizaje y exploración. El proyecto tiene como objetivo familiarizarse con el desarrollo de un sistema operativo, incluyendo funcionalidades básicas como información del sistema, ayuda, gestión de archivos y capacidades multimedia.
 
 ---
 
-#### Funcionalitats
-- **Comanda `help`**: Mostra informació sobre totes les comandes disponibles.
-- **Comanda `about`**: Proporciona informació sobre el sistema operatiu i l'autor.
-- **Comandes de reinici i apagat**: `reboot` per reiniciar i `shutdown` per apagar el sistema.
-- **Gestió d'arxius**:
-  - `list`: Llista els arxius i directoris a la unitat principal (`0:\`).
-  - `create`: Crea un nou fitxer amb contingut predeterminat.
-  - `delete`: Elimina un fitxer especificat.
-- **Comanda `playaudio`**: Reprodueix un to senzill com a demostració d'àudio.
+#### Funcionalidades  
+- **Comando `help`**: Muestra información sobre todos los comandos disponibles.  
+- **Comando `about`**: Proporciona información sobre el sistema operativo y el autor.  
+- **Comandos de reinicio y apagado**: `reboot` para reiniciar y `shutdown` para apagar el sistema.  
+- **Gestión de archivos**:  
+  - `list`: Lista los archivos y directorios en la unidad principal (`0:\`).  
+  - `create`: Crea un nuevo archivo con contenido predeterminado.  
+  - `delete`: Elimina un archivo especificado.  
+- **Comando `playaudio`**: Reproduce un tono sencillo como demostración de audio.
 
 ---
 
-#### Requeriments
-- **Cosmos Framework**
-- **.NET Core/Framework**
-- Una màquina virtual o un entorn compatible per executar el sistema operatiu.
+#### Requisitos  
+- **Cosmos Framework**  
+- **.NET Core/Framework**  
+- Una máquina virtual o un entorno compatible para ejecutar el sistema operativo.  
 
 ---
 
-#### Com iniciar el projecte
-1. Cloneu el repositori:
+#### Cómo iniciar el proyecto  
+1. Clona el repositorio:  
    ```bash
-   git clone https://github.com/usuari/SOCosmos.git
-   ```
-2. Obriu el projecte a **Visual Studio** amb el Cosmos Dev Kit instal·lat.
-3. Compileu i executeu el projecte.
+   git clone https://github.com/usuario/SOCosmos.git
+   ```  
+2. Abre el proyecto en **Visual Studio** con el Cosmos Dev Kit instalado.  
+3. Compila y ejecuta el proyecto.
 
 ---
 
-#### Notes
-Aquest projecte és una introducció al desenvolupament d'un sistema operatiu. Per expandir-lo, podeu implementar funcionalitats addicionals com suport per a més formats d'arxius, interfícies gràfiques, o compatibilitat amb altres dispositius.
+#### Notas  
+Este proyecto es una introducción al desarrollo de un sistema operativo. Para expandirlo, se pueden implementar funcionalidades adicionales como soporte para más formatos de archivos, interfaces gráficas o compatibilidad con otros dispositivos.  
